@@ -1,0 +1,59 @@
+body{
+    font-family:Arial,sans-serif;
+    background-image:url("https://images.pexels.com/photos/355465/pexels-photo-355465.jpeg?cs=srgb&dl=pexels-pixabay-355465.jpg&fm=jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-weight:bold;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+h1{
+    font-size:3.5rem;
+    color:white;
+
+}
+
+.choices{
+    margin-bottom:30px;
+}
+
+.choices button{
+    font-size:7.5rem;
+    min-width:160px;
+    margin:0 10px;
+    border-radius:300px;
+    background-color:lightgreen;
+    cursor:pointer;
+    transition:background-color 0.5s ease;
+}
+
+.choices button:hover{
+    background-color:hsl(200,100%,70%);
+
+}
+
+#playerDisplay,#computerDisplay{
+    font-size:2.5rem;
+    color:white;
+}
+
+#resultDisplay{
+    font-size:5rem;
+    margin:30px 0;
+}
+
+.scoreDisplay{
+    font-size:2rem;
+    color:white;
+}
+
+.greenText,#playerScoreDisplay{
+    color:green;
+}
+
+.redText,#computerScoreDisplay{
+    color:red;
+}
